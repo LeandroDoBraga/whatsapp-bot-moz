@@ -1,0 +1,18 @@
+# ==============================================================================
+# render.yaml — Configuração de Deploy Automático 100% Gratuito no Render.com
+# ==============================================================================
+services:
+  - type: web
+    name: whatsapp-bot-braga-vanguard-ingles
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn whatsapp_multicompany_bot:create_fastapi_app --factory --host 0.0.0.0 --port $PORT
+    healthCheckPath: /status
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: WHATSAPP_VERIFY_TOKEN
+        value: BRAGA_IO_SECURE_TOKEN_2026
+      - key: GEMINI_API_KEY
+        sync: false

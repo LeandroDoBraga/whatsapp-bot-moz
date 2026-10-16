@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "jurisdiction": "Maputo & Matola, Moçambique",
+    "currency": "MZN",
+    "official_whatsapp_mpesa": "+258 87 778 3631",
+    "secondary_whatsapp": "+258 86 818 2810",
+    "official_emails": ["lb9391404@gmail.com", "direcao@braga.io"],
+    "founder": "Leandro Dorcelino Braga — Arquiteto Chefe de Soluções & Diretor Executivo",
+    "bank_details_millennium_bim": {
+      "bank": "Millennium BIM",
+      "holder": "LEANDRO DORCELINO BRAGA",
+      "nuit": "134392320",
+      "account_number": "226217484",
+      "nib": "000100000022621748457",
+      "iban": "MZ59000100000022621748457"
+    }
+  },
+  "companies": {
+    "braga_io": {
+      "id": "braga_io",
+      "aliases": ["braga.io", "braga.eu", "braga"],
+      "name": "Braga.io — Infraestrutura Digital para Líderes",
+      "slogan": "Engenharia Soberana de Software, Hardware e Multiplicação Patrimonial (Maputo, Moçambique)",
+      "website": "https://braga.io",
+      "headquarters": "Av. Julius Nyerere, Polana Cimento • Maputo, Moçambique",
+      "mandatory_rules": {
+        "always_verify_company_status": true,
+        "down_payment_rule": "50% de sinal na adjudicação (via M-Pesa +258 87 778 3631, e-Mola ou Millennium BIM) e 50% na entrega técnica.",
+        "complexity_multipliers": {
+          "standard": 1.0,
+          "high_complexity_or_architecture": [2.0, 3.0],
+          "banks_and_financial_institutions": {
+            "multiplier_range": [2.0, 3.0],
+            "max_extrapolation_mzn": 50000000.0
+          }
+        }
+      },
+      "pricing_catalog": {
+        "pacote_aceleracao_branding": {
+          "name": "Pacote Aceleração & Branding Clínico/Comercial (Nível 1)",
+          "base_price_min_mzn": 3500.0,
+          "base_price_max_mzn": 10000.0,
+          "description": "Logótipo oficial e identidade visual de prestígio, Master Templates adaptáveis no telemóvel (fim da dependência do Canva), criativos publicitários 4:5 e formulário de triagem inteligente."
+        },
+        "pacote_medio": {
+          "name": "Pacote Médio (Clínicas & Empresas Médias)",
+          "base_price_min_mzn": 35000.0,
+          "base_price_max_mzn": 35000.0,
+          "description": "Funil automatizado de WhatsApp 24/7, formulário dinâmico com lógica condicional, organização automática de fichas pré-consulta e integração de atendimento inteligente."
+        },
+        "pacote_premium_corporativo": {
+          "name": "Pacote Premium Corporativo (Baleias, Arquitetura & Sociedades)",
+          "base_price_min_mzn": 70000.0,
+          "base_price_max_mzn": 70000.0,
+          "description": "Portal próprio de Onboarding/KYC criptografado (TLS 1.3 Zero-Data-Leakage), AI Filter de qualificação silenciosa de património, Concierge Virtual IA 24/7 (PT/EN) e blindagem de horas de sócios e diretores."
+        },
+        "retencao_continua_mrr": {
+          "name": "Retenção Contínua (MRR — Manutenção & Evolução)",
+          "base_price_min_mzn": 15000.0,
+          "base_price_max_mzn": 15000.0,
+          "unit": "mês",
+          "description": "Manutenção preventiva de servidores, atualização contínua dos modelos de IA, relatórios mensais de telemetria e suporte prioritário de prontidão."
+        },
+        "omniflow_banking_os": {
+          "name": "OmniFlow Banking OS (Instituições Financeiras & Bancos)",
+          "poc_mzn": [3500000.0, 4800000.0],
+          "rollout_mzn": [14000000.0, 18500000.0],
+          "saas_monthly_mzn": [950000.0, 1400000.0],
+          "max_bank_extrapolation_mzn": 50000000.0,
+          "description": "Licenciamento corporativo para bancos comerciais: integração Finacle/Temenos T24/SAP Core/TCS BaNCS, desdobramento nacional 'Balcão Zero', totens QR/NFC, biometria KYC Liveness Detection e SLA de 99,98%."
+        }
+      }
+    },
+    "vanguarda_living": {
+      "id": "vanguarda_living",
+      "aliases": ["vanguard living", "vanguarda living", "vanguard living atelier", "vanguarda living ateliê"],
+      "name": "Vanguard Living Atelier",
+      "slogan": "Mobiliário de Autor Sob Medida — Produção Local 100% Real (Manhembana, Entrada de Boquisso — Matola & Maputo)",
+      "website": "https://vanguardliving.staticdomains.app/",
+      "factory_location": "Manhembana, Entrada de Boquisso (Matola) • Entrega em 15 Dias em Matola & Maputo",
+      "pricing_rules": {
+        "when_client_sends_photo": {
+          "formula": "[(custo_de_fabricacao + 40%) * 2]",
+          "mathematical_equivalent": "custo_de_fabricacao * 1.40 * 2 (ou seja, custo_de_fabricacao * 2.80)",
+          "description": "O bot analisa a foto enviada pelo cliente, estima o custo de fabricação (madeira tratada, espuma D35/D45, tecido bouclé/veludo e complexidade) e aplica [(custo + 40%) × 2]."
+        },
+        "when_no_photo_sent": {
+          "rule": "USAR SEMPRE O VALOR ALTO (MÁXIMO) DO CATÁLOGO (Linha Assinatura Alto Padrão / Bouclé)",
+          "description": "O catálogo possui 3 colunas (Baixo: Linha Essencial | Médio: Linha Residencial D35 | Alto: Linha Assinatura Alto Padrão / Bouclé). Sem foto, o bot apresenta sempre o valor máximo (Alto)."
+        },
+        "partner_commission": "12% a 15% de comissão direta (via M-Pesa ou Millennium BIM) no ato da confirmação do sinal de 50% pelo cliente."
+      },
+      "catalog_table_mzn": {
+        "sofa_chaise_aura_l": {
+          "name": "Sofá Chaise 'Aura' ou em L (3.0m–3.6m)",
+          "baixo_essencial_mzn": 46800.0,
+          "medio_residencial_mzn": 65000.0,
+          "alto_assinatura_max_mzn": 88400.0,
+          "default_bot_price_mzn": 88400.0,
+          "implied_manufacturing_cost_mzn": 31571.43,
+          "image_url": "/media/vanguard_real_sofa_chaise_aura_88400mzn.jpg",
+          "description": "Estrutura reforçada em madeira tratada e contraplacado naval, espuma de alta densidade D35/D45, revestimento Bouclé Off-White e almofadas esféricas incluídas."
+        },
+        "sofa_curvo_organico": {
+          "name": "Sofá Curvo Orgânico + Esferas (2.6m)",
+          "baixo_essencial_mzn": 39000.0,
+          "medio_residencial_mzn": 54600.0,
+          "alto_assinatura_max_mzn": 72800.0,
+          "default_bot_price_mzn": 72800.0,
+          "implied_manufacturing_cost_mzn": 26000.0,
+          "image_url": "/media/vanguard_real_sofa_curvo_cinza_72800mzn.jpg",
+          "description": "Modelação curva contínua executada à mão na nossa oficina na Matola, com gomos anatómicos, chassis reforçado contínuo e par de esferas decorativas."
+        },
+        "cama_casal_queen_cabeceira": {
+          "name": "Cama Casal/Queen + Cabeceira Estofada",
+          "baixo_essencial_mzn": 31200.0,
+          "medio_residencial_mzn": 42900.0,
+          "alto_assinatura_max_mzn": 57200.0,
+          "default_bot_price_mzn": 57200.0,
+          "implied_manufacturing_cost_mzn": 20428.57,
+          "image_url": "/media/vanguard_02_chaise_serpentina.jpg",
+          "description": "Cama Casal/Queen estruturada em madeira tratada com cabeceira estofada de alto padrão em Bouclé ou Veludo Acetinado."
+        },
+        "kit_3_banquetas_altas": {
+          "name": "Kit 3 Banquetas Altas (Ilha de Cozinha / Cozinha Americana)",
+          "baixo_essencial_mzn": 19500.0,
+          "medio_residencial_mzn": 23400.0,
+          "alto_assinatura_max_mzn": 31200.0,
+          "default_bot_price_mzn": 31200.0,
+          "implied_manufacturing_cost_mzn": 11142.86,
+          "image_url": "/media/vanguard_01_aura_organic_living.jpg",
+          "description": "Conjunto de 3 banquetas altas sob medida para ilha de cozinha ou balcão americano com acabamento Linha Assinatura."
+        },
+        "par_poltronas_esculturais": {
+          "name": "Par de Poltronas Esculturais de Sala",
+          "baixo_essencial_mzn": 23400.0,
+          "medio_residencial_mzn": 28600.0,
+          "alto_assinatura_max_mzn": 36400.0,
+          "default_bot_price_mzn": 36400.0,
+          "implied_manufacturing_cost_mzn": 13000.0,
+          "image_url": "/media/vanguard_01_aura_organic_living.jpg",
+          "description": "2 poltronas esculturais de autor com estrutura reforçada, espuma D35/D45 e revestimento Bouclé."
+        },
+        "lounge_exterior_riviera": {
+          "name": "Lounge Exterior Riviera (Jardim/Varanda — Madeira & Aço)",
+          "baixo_essencial_mzn": 54600.0,
+          "medio_residencial_mzn": 67600.0,
+          "alto_assinatura_max_mzn": 93600.0,
+          "default_bot_price_mzn": 93600.0,
+          "implied_manufacturing_cost_mzn": 33428.57,
+          "image_url": "/media/vanguard_03_riviera_prime_lounge.jpg",
+          "description": "Aço tubular com pintura eletrostática anti-corrosão marítima, madeira de lei moçambicana (Chanfuta/Jambirre tratada com proteção UV), lareira ecológica integrada e tecido náutico hidrorrepelente."
+        },
+        "pacote_sala_completa_chave_na_mao": {
+          "name": "Pacote Sala Completa Chave-na-Mão (Sofá Principal + 2 Poltronas + Mesa de Centro)",
+          "baixo_essencial_mzn": 62400.0,
+          "medio_residencial_mzn": 85800.0,
+          "alto_assinatura_max_mzn": 117000.0,
+          "default_bot_price_mzn": 117000.0,
+          "implied_manufacturing_cost_mzn": 41785.71,
+          "image_url": "/media/vanguard_real_sofa_chaise_aura_88400mzn.jpg",
+          "description": "Conjunto completo Chave-na-Mão para sala de estar: Sofá Principal Linha Assinatura + 2 Poltronas Esculturais + Mesa de Centro sob medida."
+        }
+      }
+    },
+    "ingles_semestre": {
+      "id": "ingles_semestre",
+      "aliases": ["inglês semestre", "ingles semestre", "inglês sem mestre", "ingles sem mestre"],
+      "name": "Inglês Semestre (Sistema Inglês sem Mestre — Prof. Braga)",
+      "slogan": "Experiência Completa e Igualada de Áudio e Fluência nas 5 Línguas (Inglês, Espanhol, Francês, Russo e Português p/ Chineses)",
+      "coordinator": "Professor Braga — WhatsApp Oficial: +258 87 778 3631",
+      "unified_scope_all_5_languages": [
+        "1. Áudio da Língua em Questão (1.0x): Pronuncia a palavra, frase ou diálogo na língua em estudo (Inglês, Espanhol, Francês, Russo ou Português).",
+        "2. Áudio de Pronúncia Lenta (0.65x): Pronuncia pausadamente cada sílaba na língua em estudo (com botão dedicado também na caixa do Guia de Pronúncia).",
+        "3. Áudio da Tradução: Pronuncia em voz alta a tradução (em Português para Inglês, Espanhol, Francês e Russo; e em Chinês Mandarim para o curso de Português p/ Chineses).",
+        "4. Áudio Bilingue Sequencial (Língua ➔ Tradução): Em qualquer cartão, frase de exemplo ou diálogo de 5 minutos, fala primeiro na língua em estudo, aguarda terminar completamente e logo a seguir pronuncia a tradução antes de avançar."
+      ],
+      "security_architecture": [
+        "1. Criptografia de Códigos (Hashes irreversíveis com sal ISM_BRAGA_2026_SALT — zero códigos visíveis no HTML).",
+        "2. Assinatura Criptográfica contra Fraude no Navegador (VALID_STORAGE_SIGS).",
+        "3. Bloqueio Anti-Força Bruta (Bloqueio automático de 60 segundos após 5 tentativas incorretas).",
+        "4. Ocultação Total no DOM (Cartões, vocabulários e diálogos não pagos não são renderizados até confirmação do código válido)."
+      ],
+      "languages_and_codes": {
+        "en": {
+          "language": "Inglês (en)",
+          "translation_audio": "Português",
+          "levels": {
+            "baixo": {"price_mzn": 500.0, "access_code": "ENG-500-LX9", "label": "Nível Baixo (500 MT)"},
+            "medio": {"price_mzn": 1500.0, "access_code": "ENG-1500-MW4", "label": "Nível Médio (1.500 MT)"},
+            "alto": {"price_mzn": 3000.0, "access_code": "ENG-3000-HZ8", "label": "Nível Alto Executivo (3.000 MT)"}
+          }
+        },
+        "es": {
+          "language": "Espanhol (es)",
+          "translation_audio": "Português",
+          "levels": {
+            "baixo": {"price_mzn": 500.0, "access_code": "ESP-500-VJ3", "label": "Nível Baixo (500 MT)"},
+            "medio": {"price_mzn": 1500.0, "access_code": "ESP-1500-QR7", "label": "Nível Médio (1.500 MT)"},
+            "alto": {"price_mzn": 3000.0, "access_code": "ESP-3000-TK6", "label": "Nível Alto Executivo (3.000 MT)"}
+          }
+        },
+        "fr": {
+          "language": "Francês (fr)",
+          "translation_audio": "Português",
+          "levels": {
+            "baixo": {"price_mzn": 500.0, "access_code": "FRA-500-YD2", "label": "Nível Baixo (500 MT)"},
+            "medio": {"price_mzn": 1500.0, "access_code": "FRA-1500-NL5", "label": "Nível Médio (1.500 MT)"},
+            "alto": {"price_mzn": 3000.0, "access_code": "FRA-3000-PV8", "label": "Nível Alto Executivo (3.000 MT)"}
+          }
+        },
+        "ru": {
+          "language": "Russo (ru)",
+          "translation_audio": "Português",
+          "levels": {
+            "baixo": {"price_mzn": 500.0, "access_code": "RUS-500-SK4", "label": "Nível Baixo (500 MT)"},
+            "medio": {"price_mzn": 1500.0, "access_code": "RUS-1500-GY7", "label": "Nível Médio (1.500 MT)"},
+            "alto": {"price_mzn": 3000.0, "access_code": "RUS-3000-XB9", "label": "Nível Alto Executivo (3.000 MT)"}
+          }
+        },
+        "pt": {
+          "language": "Português p/ Chineses (pt)",
+          "translation_audio": "Chinês Mandarim",
+          "levels": {
+            "baixo": {"price_mzn": 500.0, "access_code": "POR-500-ZF1", "label": "Nível Baixo (500 MT)"},
+            "medio": {"price_mzn": 1500.0, "access_code": "POR-1500-WC5", "label": "Nível Médio (1.500 MT)"},
+            "alto": {"price_mzn": 3000.0, "access_code": "POR-3000-TG9", "label": "Nível Alto Executivo (3.000 MT)"}
+          }
+        }
+      }
+    }
+  }
+}
